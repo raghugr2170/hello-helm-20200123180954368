@@ -10,7 +10,7 @@ if (process.env.PORT) {
 
 var app = express();
 app.get('/', function (req, res) {
-  res.send('Welcome to IBM Cloud DevOps with Docker, Kubernetes Version 1);
+  res.send('Welcome to IBM Cloud DevOps with Docker, Kubernetes Version 2);
 });
 
 app.listen(PORT);
